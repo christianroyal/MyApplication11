@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccent"
+        android:elevation="1dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/color2" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/color1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@color/colorPrimaryDark" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="@color/color4" />
+
+</FrameLayout>
